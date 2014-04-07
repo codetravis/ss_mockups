@@ -1,0 +1,26 @@
+body, html
+{
+    background-color: #CCCCFF;
+    color: #FFFFFF;
+}
+
+#body_wrapper
+{
+    min-height: 950px;
+    min-width: 900px;
+}
+
+.header
+{
+
+}
+
+.menu_left
+{
+
+}
+
+.main_display
+{
+
+}
