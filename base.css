@@ -1,6 +1,6 @@
 body, html
 {
-    background-color: #CCCCFF;
+    background-color: #DEDECD;
     color: #FFFFFF;
 }
 
@@ -8,6 +8,8 @@ body, html
 {
     min-height: 950px;
     min-width: 900px;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .header
@@ -23,4 +25,26 @@ body, html
 .main_display
 {
 
+}
+
+#login div
+{
+    float: right;
+}
+
+#information_section
+{
+    background-color: #999999;
+}
+
+
+
+#registration_section
+{
+    margin: 0 auto;
+}
+
+#registration_section img
+{
+    margin: 0 auto;
 }
