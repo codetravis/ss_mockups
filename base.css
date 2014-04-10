@@ -58,6 +58,16 @@ body, html
     list-style: none;
 }
 
+.menu_left form
+{
+    width: 190px;
+}
+
+.menu_left form input
+{
+    width: 100%;
+}
+
 .main_display
 {
     margin-left: 210px;
