@@ -19,13 +19,22 @@ body, html
     padding: 10px 10px 0 10px;
 }
 
+.header img
+{
+    float: left;
+}
+
+#login
+{
+    float: right;
+}
 
 #identifier
 {
     border-bottom: thin solid #FF0000;
     width: 100%;
 }
-#identifier h2
+#identifier p
 {
     margin: 20px 0 0 5px;
     padding: 0;
@@ -45,24 +54,12 @@ body, html
 
 .menu_left
 {
-    width: 200px;
-    float: left;
-    min-height: 745px;
-    height: 100%;
-    padding: 5px 2px 0 5px;
-    border-right: thin solid red;
-}
 
-.menu_left ul
-{
-    list-style: none;
 }
 
 .main_display
 {
-    margin-left: 210px;
     min-height: 750px;
-    height: 100%;
 }
 
 #login div
@@ -76,6 +73,42 @@ body, html
     background-color: #CCCCCC;
     height: 300px;
     margin-bottom: 60px;
+}
+
+.info_small
+{
+    float: left;
+    width: 250px;
+    margin: 10px 40px 10px 40px;
+}
+
+.info_small h3
+{
+    color: red;
+}
+
+.info_square
+{
+    border: thin solid black;
+    height: 200px;
+    padding: 5px;
+}
+
+#connect
+{
+    margin-left: 100px;
+}
+
+#registration_section
+{
+    width: 100%;
+    clear: both;
+}
+
+#registration_section img
+{
+    display: block;
+    margin: 0 auto;
 }
 
 
