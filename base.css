@@ -78,6 +78,11 @@ body, html
     margin-bottom: 60px;
 }
 
+.display_content
+{
+    margin-top: 50px;
+    margin-left: 70px;
+}
 
 .footer
 {
