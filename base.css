@@ -56,6 +56,46 @@ body, html
 .menu_left ul
 {
     list-style: none;
+    margin-left: 0;
+    -webkit-padding-start: 0px;
+}
+
+.menu_left ul li
+{
+    margin: 0 auto;
+    width: 170px;
+    background-color: #FF0000;
+    text-align: center;
+    border: thin solid white;
+}
+
+.menu_left ul li:hover
+{
+    margin: 0 auto;
+    width: 170px;
+    background-color: #DDDDDD;
+    text-align: center;
+    border: thin solid red;
+}
+
+.menu_left a
+{
+    display: block;
+    padding: 2px;
+    height: 100%;
+    width: 100%;
+    color: #EEEEEE;
+    font-weight: bold;
+}
+
+.menu_left a:hover
+{
+    display: block;
+    padding: 2px;
+    height: 100%;
+    width: 100%;
+    color: #FF0000;
+    font-weight: bold;
 }
 
 .menu_left form
@@ -63,7 +103,7 @@ body, html
     width: 190px;
 }
 
-.menu_left form input
+#search_box
 {
     width: 100%;
 }
