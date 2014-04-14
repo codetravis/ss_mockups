@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Scholar Sense</title>
+   <link rel="stylesheet" type="text/css" href="Style/base.css"/> 
+   <link rel="stylesheet" type="text/css" href="Style/project_view.css" />
+</head>
+<body>
+    <div id="body_wrapper">
+        <div class="header">
+            <div id="logout">
+                <form  action="landing_page.html" method="post">
+                    <input type="submit" value="logout"/>
+                </form>
+            </div>
+            <div id="identifier">
+                <img src="Images/Schologo-red_2.jpg" alt="Scholar Sense Logo"/>
+                <h2>Who is Logged In</h2>
+            </div>
+        </div>
+
+        <div class="menu_left">
+            <ul id="main_menu">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="invites.html">Invites</a></li>
+                <li><a href="messages.html">Messages</a></li>
+            </ul>
+            <form action="quick_search.html" method="post">
+                <label>Search Projects<br/><input id="search_box" type="text" name="project_title"/></label>
+                <input type="submit" value="Search"/>
+            </form>
+        </div>
+
+        <div class="main_display">
+            <div class="display_content">
+                <div class="main_header">
+                    <h2>Project Title - <span class="project_owner">Owner Name</span></h2>
+                </div>
+                <div class="main_body">
+                    <div class="project_info project_wiki">
+                        <p>Project Wiki - <a href="http://www.wikipedia.org">Project wiki</a></p>
+                    </div>
+                    <div class="project_info project_description">
+                        <h4>About this Project</h4>
+                        <p>Project descripion written to fill a little space. Hopefully this will be a lot longer as the owners of the projects will be able to clearly define what it is they are working on.  More data will be added later with dummy projects</p>
+                    </div>
+                    <div class="project_info project_team">
+                        <h4>Project Team</h4>
+                        <ul>
+                            <li><a href="person_view.html?user_id=1">Team Member</a></li>
+                            <li><a href="person_view.html?user_id=2">Team Member</a></li>
+                            <li><a href="person_view.html?user_id=3">Team Member</a></li>
+                            <li><a href="person_view.html?user_id=4">Team Member</a></li>
+                        </ul>
+                    </div>
+                    <div class="project_info project_instructions">
+                        <h4>Special Instructions</h4>
+                        <p>Some special instructions from the project owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+        </div>
+    </div>
+</body>
+</html>
