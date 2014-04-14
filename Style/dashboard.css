@@ -30,3 +30,23 @@
 {
     margin-left: 10px;
 }
+
+.dash_option
+{
+    width: 700px;
+    margin-left: 20px;
+    text-align: center;
+    border-bottom: thin solid #DDDDDD;
+}
+
+.dash_option h2
+{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.dash_option form
+{
+    margin-top: 5px;
+    padding-left: 50px;
+}
