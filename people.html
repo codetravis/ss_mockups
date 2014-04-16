@@ -3,7 +3,7 @@
 <head>
    <title>Scholar Sense</title>
    <link rel="stylesheet" type="text/css" href="Style/base.css"/> 
-   <link rel="stylesheet" type="text/css" href="Style/dashboard.css" />
+   <link rel="stylesheet" type="text/css" href="Style/search.css"/> 
 </head>
 <body>
     <div id="body_wrapper">
@@ -34,17 +34,16 @@
 
         <div class="main_display">
             <div class="display_content">
-                <div class="dash_option">
-                    <a href="create_project.html"><h2>Create Project</h2></a>
+                <div class="main_header">
+                    <h2>Search People</h2>
                 </div>
-                <div class="dash_option">
-                   <a href="my_projects.html"><h2>My Projects</h2></a>
-                </div>
-                <div class="dash_option">
-                    <h2>Find Projects</h2>
-                    <form action="quick_search.html" method="post">
-                        <input type="text" name="project_title" />
-                        <input type="submit" value="Search" />
+                <div class="main_body">
+                    <form class="people_search" action="people_results.html" method="post">
+                       <label><input type="checkbox" value="Faculty" name="faculty" />Faculty</label><br/>
+                        <label><input type="checkbox" value="Students" name="students" />Students</label><br/>
+                        <label><input type="text" name="institution_name"/>Institution Name</label><br/>
+                        <label><input type="text" name="persons_name"/>Person's Name</label><br/>
+                        <input type="submit" value="Search People" />
                     </form>
                 </div>
             </div>

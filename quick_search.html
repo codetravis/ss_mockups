@@ -34,18 +34,17 @@
 
         <div class="main_display">
             <div class="display_content">
-                <div class="dash_option">
-                    <a href="create_project.html"><h2>Create Project</h2></a>
-                </div>
-                <div class="dash_option">
-                   <a href="my_projects.html"><h2>My Projects</h2></a>
-                </div>
-                <div class="dash_option">
-                    <h2>Find Projects</h2>
-                    <form action="quick_search.html" method="post">
+                <div class="main_header">
+                    <form action="" method="post">
                         <input type="text" name="project_title" />
                         <input type="submit" value="Search" />
                     </form>
+                    <h2>Search Results</h2>
+                </div>
+                <div class="main_body">
+                    <a href="project_view.html?project_id=1"><h3 class="project_title">Project Title - <span class="project_owner">Project Owner</span></h3></a>
+                    <a href="project_view.html?project_id=2"><h3 class="project_title">Project Title - <span class="project_owner">Project Owner</span></h3></a>
+                    <a href="project_view.html?project_id=3"><h3 class="project_title">Project Title - <span class="project_owner">Project Owner</span></h3></a>
                 </div>
             </div>
         </div>
