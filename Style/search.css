@@ -20,3 +20,19 @@
     margin-bottom: 10px;
     margin-right: 5px;
 }
+
+.person_name
+{
+    margin-bottom: 3px;
+}
+
+.institution_name
+{
+    font-size: small;
+}
+
+.search_results p
+{
+    margin-left: 10px;
+    margin-top: 0;
+}
