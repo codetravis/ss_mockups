@@ -1,0 +1,11 @@
+
+.main_header
+{
+    border-bottom: medium double #CCCCCC;
+}
+
+.main_header h2
+{
+    padding: 0;
+    margin: 0;
+}
